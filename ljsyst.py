@@ -100,11 +100,11 @@ def mb(v,temp,mass):
 
 #####################################################
 
-npart = 400 #number of particles 
+npart = 200 #number of particles 
 mass = 1 #1 kg, units are gonna be weird for now
 radius = 0.2 #m, radius of the particles for vizulization
 cutoff = 2.5 #m, LJ cutoff distance 
-length = 20. #m, large enough to comfortably fit the particles
+length = 15. #m, large enough to comfortably fit the particles
 dt = 0.005 #s, time step
 v0 = 5. #m/s, initial velocity
 niter = 400 #number of iterations for the simulation
